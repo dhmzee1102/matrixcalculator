@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Matrix Calculators</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>MATRIX CALCULATOR</h1>
+
+  <h2>Inverse Matrix</h2>
+  <div>
+    <label for="dimension">Enter the dimension of the square matrix:</label>
+    <input type="number" id="dimension" required>
+    <button onclick="createMatrix()">Create Matrix</button>
+  </div>
+
+  <div id="matrixInput" style="display: none;">
+    <h3>Enter the matrix values:</h3>
+    <table id="matrixTable"></table>
+    <button onclick="calculateInverse()">Calculate Inverse</button>
+    <p id="error"></p>
+  </div>
+
+  <div id="result" style="display: none;">
+    <h3>Inverse Matrix:</h3>
+    <table id="resultTable"></table>
+  </div>
+
+  <h2>Gaussian Elmination</h2>
+
+  <form id="linearEquationForm">
+    <div class="input-row">
+      <label for="numVariables">Number of Variables:</label>
+      <input type="number" id="numVariables" required>
+    </div>
+
+    <div class="input-row">
+      <label for="numEquations">Number of Equations:</label>
+      <input type="number" id="numEquations" required>
+    </div>
+
+    <div id="variablesContainer"></div>
+
+    <div id="equationsContainer"></div>
+
+    <button type="submit">Solve Equations</button>
+  </form>
+
+  <pre id="output"></pre>
+  
+ 
+  <div>
+    <iframe width="460" height="215" src="https://www.youtube.com/embed/eDb6iugi6Uk?t=682" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div>
+    <audio id="backgroundMusic" src="Pou.m4a" autoplay loop controls></audio>
+  </div>
+  
+  <footer>
+    <p>&copy; 2023 Matrix Calculator. All rights reserved. | Designed by nikhamzee</p>
+  </footer>
+  <script src="javascript.js"></script>
+</body>
+</html>

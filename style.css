@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color:white;
+  padding: 20px;
+  background-image: url("black.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+
+h1 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  
+}
+
+h2 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-row {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.label {
+  width: 200px;
+  text-align: center;
+
+}
+
+input[type="number"],
+input[type="text"] {
+  text-align: center;
+  width: 100px;
+  padding: 5px;
+}
+
+.equation {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+#output {
+  font-family: monospace;
+  text-align: center;
+  color:black;
+  background-color: #f7f7f7;
+  padding: 10px;
+  white-space: pre-wrap;
+}
+#result {
+  font-family: monospace;
+  text-align: center;
+  color:black;
+  background-color: #f7f7f7;
+  padding: 10px;
+  white-space: pre-wrap;
+}
+
+
+#error {
+  color: red;
+}
+
+#matrixTable,
+#resultTable {
+  text-align: center;
+  color:black;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+#matrixTable td,
+#resultTable td {
+  text-align: center;
+  color:black;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+audio {
+  width: 200px;
+}
+
+/* Customize the appearance of the audio controls */
+audio::-webkit-media-controls-panel {
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+
